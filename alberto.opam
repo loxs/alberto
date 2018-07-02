@@ -7,7 +7,6 @@ depends: [
   "jbuilder" {build & >= "1.0"}
   "topkg-jbuilder" {build & >= "0.2.0"}
   "topkg" {build & >= "0.9.0"}
-  "ocaml" {>= "4.01"}
 ]
 
 author: "Sergei Lebedev"
@@ -16,7 +15,7 @@ homepage: "https://github.com/selectel/alberto"
 bug-reports: "https://github.com/selectel/alberto/issues"
 dev-repo: "git+https://github.com/selectel/alberto"
 license: "LGPL-2.1+ with OCaml linking exception"
-descr: """
+descr: "
 OCaml interface to Erlang ports
 
 Alberto is an implementation of
@@ -24,4 +23,4 @@ Alberto is an implementation of
 a protocol, used by Erlang nodes to communicate with so called *ports*. See
 Erlang [documentation](http://www.erlang.org/doc/tutorial/c_port.html) for
 details.
-"""
+"
